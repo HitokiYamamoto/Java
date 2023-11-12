@@ -3,9 +3,9 @@ import java.util.*;
 public class Cleric {
   String name;
   int HP = 50;
-  final int MAX_HP = 50;
+  static final int MAX_HP = 50;
   int MP = 10;
-  final int MAX_MP = 10;
+  static final int MAX_MP = 10;
 
   public void selfAid() {
     System.out.println(this.name + "はセルフエイドを唱えた！");
